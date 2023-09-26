@@ -1,9 +1,9 @@
-fruits = ...  # Ваш код
+fruits: dict = {'яблоко': 50, 'банан': 30, 'груша': 40, 'апельсин': 35}
 
 print("Список фруктов и их цены:")
-print(...)  # Ваш код
+print(dict(fruits))
 
-user_input = ...  # Ваш код
+user_input: str = input(':')
 
-price = ...  # Ваш код
-print(...)  # Ваш код
+# price =
+print(fruits[user_input])
