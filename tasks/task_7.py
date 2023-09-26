@@ -4,3 +4,5 @@ keys_set: dict = student_info
 
 # Вывод
 print(set(keys_set))
+
+# 1. Необходимо улучшить
