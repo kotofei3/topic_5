@@ -5,4 +5,4 @@ print(fruits)
 
 user_input: str = input("Цена ")
 
-print(fruits[user_input])
+print('-', fruits[user_input])
