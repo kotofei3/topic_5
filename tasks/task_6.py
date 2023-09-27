@@ -1,7 +1,4 @@
-a: str = input("Введите строку:")
-b: set = set(a)
-c: len = len(a)
-print("Уникальные символы:", tuple(b))
-print("Количество уникальных символов: ", c)
-
-# 1. Дать переменным осмысленные имена
+lines_one: str = input("Введите строку:")
+many_elements: set = set(lines_one)
+print("Уникальные символы:", tuple(many_elements))
+print("Количество уникальных символов:", len(many_elements))
